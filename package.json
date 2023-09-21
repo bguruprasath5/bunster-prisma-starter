@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "@prisma/client": "5.3.1",
-    "bunsterjs": "0.3.0"
+    "bunsterjs": "0.3.1"
   }
 }
