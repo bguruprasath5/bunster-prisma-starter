@@ -1,0 +1,24 @@
+{
+  "name": "bunster-prisma-starter",
+  "module": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "serve": "bun run src/main.ts --reload",
+    "lint": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "prisma": "5.3.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.49.0",
+    "prettier": "^3.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@prisma/client": "5.3.1",
+    "bunsterjs": "0.2.6"
+  }
+}
