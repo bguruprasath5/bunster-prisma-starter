@@ -21,4 +21,7 @@ new Bunster()
     hostname: config.HOST_NAME,
     port: config.PORT,
     cors: true,
+    loggerConfig: {
+      logRequest: true,
+    },
   });
